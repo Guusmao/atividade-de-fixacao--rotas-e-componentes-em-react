@@ -19,8 +19,8 @@ const Sidebar = () => {
 
       <div style={{ marginTop: '2rem' }}>
         <h3>Perfis de Demonstração</h3>
-        <NavLink to="/user/sarah" className={({ isActive }) => (isActive ? 'sidebar-link active' : 'sidebar-link')}>
-          Perfil da Sarah
+        <NavLink to="/user/gusmao" className={({ isActive }) => (isActive ? 'sidebar-link active' : 'sidebar-link')}>
+          Perfil do Gusmão
         </NavLink>
         <NavLink to="/user/404" className={({ isActive }) => (isActive ? 'sidebar-link active' : 'sidebar-link')}>
           Usuário Inexistente

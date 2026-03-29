@@ -12,12 +12,12 @@ const UserProfile = () => {
     
     // Simulate network delay
     setTimeout(() => {
-      if (id === 'sarah') {
+      if (id === 'gusmao') {
         setUserData({
-          id: 'sarah',
-          name: 'Sarah Rique',
-          role: 'Desenvolvedora React',
-          bio: 'Apaixonada por interfaces elegantes e performance web.'
+          id: 'gusmao',
+          name: 'Gusmão',
+          role: 'Professor',
+          bio: 'Especialista em desenvolvimento web e mentor de tecnologia.'
         });
       } else {
         setUserData(null);
